@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.Notification {
+  border: 1px solid red;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+  margin: 10px;
+}
+.icon {
+  width: 5%;
+}
+.text {
+  width: 90%;
+}
+.close-icon {
+  justify-self: flex-end;
+}
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+.warning {
+  color: yellow;
+}
+.info {
+  color: blue;
+}
